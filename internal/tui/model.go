@@ -148,7 +148,7 @@ func NewModel(cfg *config.Config) Model {
 		state:          StateLoading,
 		sortMode:       SortByDirty,
 		filterMode:     FilterAll,
-		currentPage: 0,
+		currentPage:    0,
 	}
 }
 
